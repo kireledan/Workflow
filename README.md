@@ -1,6 +1,7 @@
 # Workflow
 
-Welcome to this sample Node js app!
+Welcome to this sample Node js app! This repository is a push to production repo. What you see on 
+master is what appears on production! 
 
 
 ## Requirements
@@ -15,8 +16,11 @@ npm install
 
 ```
 
-## To Test
+## To Run Locally
 
 ```
-npm start
+up start
 ```
+
+
+
