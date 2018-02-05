@@ -1,0 +1,7 @@
+{
+  "name": "hello-world",
+  "profile": "myapp",
+  "regions": [
+    "us-west-1"
+  ]
+}

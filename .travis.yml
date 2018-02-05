@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+before_script:
+  - curl -f https://up.apex.sh/install | sh
+script:
+  - up build
+
+deploy:
+  provider: script
+  script: up deploy
+  on:
+    branch: master
