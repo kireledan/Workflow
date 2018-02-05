@@ -1,13 +1,17 @@
+sudo: required
 language: node_js
 node_js:
   - "node"
 before_script:
-  - curl -f https://up.apex.sh/install | sh
+  - curl -f https://up.apex.sh/install > install.sh
+  - chmod +x install.sh
+  - sudo ./install.sh
+  - rm -f install.sh
 script:
-  - up build
+  - up build > /dev/null
 
 deploy:
   provider: script
-  script: up deploy
+  script: up deploy production > /dev/null
   on:
     branch: master
