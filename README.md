@@ -1,3 +1,5 @@
+
+[![Build Status](https://travis-ci.org/kireledan/Workflow.svg?branch=master)](https://travis-ci.org/kireledan/Workflow)
 # Workflow
 
 Welcome to this sample Node js app! This repository is a push to production repo. What you see on 
