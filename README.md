@@ -3,6 +3,8 @@
 Welcome to this sample Node js app! This repository is a push to production repo. What you see on 
 master is what appears on production! 
 
+https://gmheqz930d.execute-api.us-west-1.amazonaws.com/production
+
 
 ## Requirements
 
