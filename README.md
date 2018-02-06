@@ -8,6 +8,20 @@ master is what appears on production!
 
 All you need is node installed to develop this application.
 
+
+## To Setup
+
+Get node/npm
+https://nodejs.org/en/
+
+Then install up.
+
+```
+
+curl -sf https://up.apex.sh/install | sh
+
+```
+
 ## To Build
 
 ``` 
